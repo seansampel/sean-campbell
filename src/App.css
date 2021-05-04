@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); 
+
+body {
+  margin: 0%;
+  border: 0%;
+  padding: 0%;
+  background:
+    url(./background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+/* .Title {
+  overflow: hidden;
+  color: rgb(250, 248, 248);
+  text-shadow: 1px 1px rgb(96, 175, 6);
+} */
+/* .main-image {
+  background: url(./background.png);
+  padding: 0px;
+  margin-top: 0px;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  overflow: hidden;
+} */
+.App {
+  font-family: Abel;
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  margin-top: 0%;
+  height: 100%;
+  width: 100%;
+  background-position: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
