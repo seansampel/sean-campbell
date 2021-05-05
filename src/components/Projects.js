@@ -1,9 +1,10 @@
 import React from 'react'
+import '../styles/Projects.css';
 
 export const Projects = () => {
   return (
-    <div>
-      <h2>Here are some of my projects</h2>
+    <div className="Projects" id="Projects">
+      <p>Here are some of my projects</p>
     </div>
   )
 }

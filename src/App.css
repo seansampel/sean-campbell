@@ -14,28 +14,30 @@ body {
   padding: 0.4em;
   color: rgb(250, 248, 248);
 }
-/* .main-image {
-  background: url(./background.png);
-  padding: 0px;
-  margin-top: 0px;
-  height: 100%;
-  width: 100%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: fixed;
-  overflow: hidden;
-} */
-.App {
+.App-title {
   font-family: Abel;
   text-align: center;
   font-size: 15px;
-  color: white;
+  /* color: white; */
   margin-top: 0%;
   height: 100%;
   width: 100%;
-  background-position: center;
-  justify-content: center;
-  overflow: hidden;
+  
+  /* background-position: center; */
+  /* overflow: hidden; */
+}
+#links a {
+  color: white;
+  font-family: Abel;
+  text-align: center;
+  text-decoration: none;
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 25px;
+  margin-top: 10%;
+  /* height: 100%; */
+  /* width: 100%; */
+  justify-content: space-between;
+  /* overflow: hidden; */
 }
 

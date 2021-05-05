@@ -1,11 +1,12 @@
 import React from 'react'
+import '../styles/Contact.css';
 
 export const Contact = () => {
   return (
-    <div>
-      <h2>Please contact me at the following..</h2>
-      <h2>LinkedIn - </h2>
-      <h2>Github - </h2>
+    <div className="Contact" id="Contact">
+      <p>Please contact me at the following</p>
+      <p><a href="https://www.linkedin.com/in/sean-campbell-657aab19a/">LinkedIn</a></p>
+      <p><a href="https://github.com/seansampel">Github</a> </p>
     </div>
   )
 }
