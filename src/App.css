@@ -9,11 +9,11 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
-/* .Title {
-  overflow: hidden;
+.Title {
+  background-color:rgb(19, 18, 18);
+  padding: 0.4em;
   color: rgb(250, 248, 248);
-  text-shadow: 1px 1px rgb(96, 175, 6);
-} */
+}
 /* .main-image {
   background: url(./background.png);
   padding: 0px;

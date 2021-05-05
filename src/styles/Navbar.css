@@ -2,22 +2,21 @@
 
 #Navbar {
   background-color: rgb(5, 5, 5);
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 15%;
   font-family: Abel;
-  height: 10px;
+  height: 0px;
   width: 125px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items:center;
   position: fixed;
   color: #ffffff;
 }
-#Home {
+/* #Home {
   color: rgb(241, 241, 241);
   width: 250px;
   padding-left: 15%;
-}
+} */
 #About {
   color: rgb(241, 241, 241);
   width: 250px;
