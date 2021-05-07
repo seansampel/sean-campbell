@@ -15,18 +15,18 @@ function App() {
                 <h1 className="Title">
                 Sean Campbell - Software Developer
               </h1>
-        <ul id="links">
-            <Link className="nav-item" to="/">
+        <ul className="links" id="links">
+            <Link className="nav-items" to="/">
               Home
             </Link>
-            <Link className="nav-item" to="/About">
+            <Link className="nav-items" to="/About">
               About
             </Link>
-            <Link className="nav-item" to="Projects">
+            <Link className="nav-items" to="Projects">
               Projects
             </Link>
-            <Link className="nav-item" to="Contact">
-              Contact Me
+            <Link className="nav-items" to="Contact">
+              Contact
             </Link>
               <Switch> 
                 <Route exact path="/" component={Navbar} />

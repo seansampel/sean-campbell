@@ -1,6 +1,6 @@
 #About {
     color: rgb(241, 241, 241);
-    background: black;
+    background: rgb(19, 18, 18);
     font-family: Abel;
     text-decoration: none;
     text-align: center;
@@ -10,10 +10,10 @@
     width: 100%;
     overflow: hidden;
 }
-.About:hover {
+/* #About:hover {
   background-color: white;
   color: black;
-}
+} */
 #Profile {
   width: 145px;
   height: 145px; 
