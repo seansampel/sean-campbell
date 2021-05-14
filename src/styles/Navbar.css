@@ -1,16 +1,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 #Navbar {
-  background-color: rgb(5, 5, 5);
-  margin-top: 15%;
+  background: rgb(19, 18, 18, 0.8);
+  margin-top: 5%;
   font-family: Abel;
-  /* height: 0px; */
-  /* width: 125px; */
   display: flex;
   flex-direction: column;
   align-items:center;
   position:absolute;
   color: #ffffff;
+  text-align: center;
 }
 /* #Home {
   color: rgb(241, 241, 241);
