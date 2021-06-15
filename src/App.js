@@ -15,7 +15,7 @@ function App() {
                 <h1 className="Title">
                 Sean Campbell - Software Developer
               </h1>
-        <ul className="links" id="links">
+        <ul className="main-links" id="main-links">
             <Link className="nav-items" to="/">
               Home
             </Link>

@@ -1,4 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Abel&display=swap'); 
+/* @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');  */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Odibee+Sans&display=swap');
 
 body {
   margin: 0%;
@@ -10,12 +11,12 @@ body {
     background-repeat: no-repeat;
 }
 .Title {
-  background-color:rgb(19, 18, 18, 0.8);
+  background-color:rgb(19, 18, 18, 0.85);
   padding: 0.4em;
   color: rgb(250, 248, 248);
 }
 .App-title {
-  font-family: Abel;
+  font-family: 'Montserrat', sans-serif;
   text-align: center;
   font-size: 15px;
   margin-top: 0%;
@@ -25,37 +26,31 @@ body {
   /* background-position: center; */
   /* overflow: hidden; */
 }
-#links a {
+#main-links {
   color: white;
-  font-family: Abel;
+  font-family: 'Montserrat', sans-serif;
   text-decoration: none;
   padding-left: 5px;
   padding-right: 5px;
   font-size: 25px;
-  margin-top: 10%;
+  margin-top: 5%;
   position:relative;
-  background:rgb(19, 18, 18, 0.8);
-  opacity: 0.8;
   justify-content: space-between;
   text-align: center;
-  animation: fadeIn ease 5s;
+  
 }
-/* #nav-items:hover link {
-  background-color: white;
-  color: black;
-} */
-@keyframes fadeIn {
-  0% {
-    opacity:0;
-  }
-  100% {
-    opacity:1;
-  }
-  0% {
-    font-size: 0;
-  }
-  100% {
-    font-size: 25px;
-  }
+#main-links a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+  background: rgb(19, 18, 18, 0.85);
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 25px;
+  position: relative;
+  justify-content: space-between;
+  text-align: center;
+  
 }
+
 

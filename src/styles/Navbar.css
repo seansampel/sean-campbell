@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@700&display=swap');
 
 #Navbar {
-  background: rgb(19, 18, 18, 0.8);
+  background: rgb(19, 18, 18, 0.85);
   margin-top: 5%;
-  font-family: Abel;
+  font-family: 'Montserrat', sans-serif;
   display: flex;
   flex-direction: column;
   align-items:center;
@@ -11,23 +11,4 @@
   color: #ffffff;
   text-align: center;
 }
-/* #Home {
-  color: rgb(241, 241, 241);
-  width: 250px;
-  padding-left: 15%;
-} */
-/* #About {
-  color: rgb(241, 241, 241);
-  width: 250px;
-  padding-left: 15%;
-}
-#Projects {
-  color: rgb(241, 241, 241);
-  width: 250px;
-  padding-left: 15%;
-}
-#Contact {
-  color: rgb(241, 241, 241);
-  width: 250px;
-  padding-left: 15%;
-} */
+
